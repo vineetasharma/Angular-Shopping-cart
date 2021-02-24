@@ -7,6 +7,7 @@ import { ItemComponent } from './item/item.component';
 import { CartComponent } from './cart/cart.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { TestComponent } from './test/test.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,9 @@ const routes: Routes = [
   },
   {
     path: 'wishlist', component: WishlistComponent
+  },
+  {
+    path: 'test', component:TestComponent
   }
 ];
 
